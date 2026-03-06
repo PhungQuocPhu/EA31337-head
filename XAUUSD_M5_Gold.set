@@ -1,0 +1,16 @@
+// MT5 Optimization Configuration for Fractals, RSI, and SuperTrend Strategies
+// XAUUSD M5
+
+// Fractals Configuration
+input int FractalPeriod = 5;
+
+// RSI Configuration
+input int RSIPeriod = 14;
+input double OverboughtLevel = 70.0;
+input double OversoldLevel = 30.0;
+
+// SuperTrend Configuration
+input double ATRMultiplier = 3.0;
+input int ATRPeriod = 10;
+
+// Additional configurations can be added as needed.
