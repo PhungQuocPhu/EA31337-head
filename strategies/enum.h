@@ -84,13 +84,11 @@ enum ENUM_STRATEGY {
   STRAT_RVI,                         // RVI
   STRAT_SAR,                         // SAR
   // STRAT_SAWA,          // SAWA
-  STRAT_STDDEV,      // StdDev
-  STRAT_STOCHASTIC,  // Stochastic
-#ifdef __MQL5__
-// STRAT_SUPERTREND,    // Super Trend
-#endif
-  STRAT_SVE_BB,      // SVE Bollinger Bands
-  STRAT_TMAT_SVEBB,  // TMAT SVEBB
+  STRAT_STDDEV,        // StdDev
+  STRAT_STOCHASTIC,    // Stochastic
+  STRAT_SUPERTREND,    // Super Trend
+  STRAT_SVE_BB,        // SVE Bollinger Bands
+  STRAT_TMAT_SVEBB,    // TMAT SVEBB
   // STRAT_TMA_CG,        // TMA CG
   STRAT_TMA_TRUE,  // TMA True
   STRAT_WPR,       // WPR
