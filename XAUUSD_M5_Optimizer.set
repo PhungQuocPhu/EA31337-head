@@ -1,0 +1,12 @@
+// MT5 Optimization Parameters for Gold Trading on M5 Timeframe
+
+// Parameters
+input double TakeProfit = 300;        // Take Profit in points
+input double StopLoss = 200;           // Stop Loss in points
+input double LotSize = 0.1;             // Lot Size
+input int Slippage = 3;                 // Maximum slippage in points
+input int MagicNumber = 123456;        // Unique identifier for trades
+
+// Trade Conditions
+input double RiskPercentage = 1.0;      // Risk per trade as a percentage of account balance
+input int OptimizationIterations = 1000; // Number of iterations for optimization
