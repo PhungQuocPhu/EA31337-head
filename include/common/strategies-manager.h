@@ -192,6 +192,8 @@ class StrategiesManager {
         return StrategyInit<Stg_StdDev>(_tf);
       case STRAT_STOCHASTIC:
         return StrategyInit<Stg_Stochastic>(_tf);
+      case STRAT_SUPERTREND:
+        return StrategyInit<Stg_SuperTrend>(_tf);
       case STRAT_SVE_BB:
         return StrategyInit<Stg_SVE_Bollinger_Bands>(_tf);
       case STRAT_TMAT_SVEBB:
